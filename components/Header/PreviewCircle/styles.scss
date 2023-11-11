@@ -1,0 +1,21 @@
+.container {
+  width: 300px;
+  height: 267px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 10%;
+  left: 5%;
+
+  img {
+    width: 267px;
+    height: 267px;
+    object-fit: cover;
+    position: absolute;
+    border-radius: 267px;
+  }
+  .btn {
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+  }
+}

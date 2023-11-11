@@ -1,0 +1,33 @@
+@import "@styles/variables.scss";
+
+main {
+  background-image: url("https://ik.imagekit.io/geeekg65rf/HeaderBackground.webp");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 80%;
+  background-color: $HeadBG;
+
+  padding: 0 20px;
+
+  .hero {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    flex-shrink: 0;
+    bottom: 8%;
+  }
+
+  h1 {
+    color: $TextHead;
+    font-family: $Roboto;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+    font-variant: all-small-caps;
+    letter-spacing: 11px;
+    padding: 0 20px;
+  }
+}
