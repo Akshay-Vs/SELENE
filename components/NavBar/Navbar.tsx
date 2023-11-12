@@ -21,7 +21,9 @@ const Navbar = () => {
         </div>
       </div>
       <div className="center">
-        <div className="logo"> SELENE</div>
+        <div className="logo">
+          <h1> SELENE</h1>
+        </div>
       </div>
       <div className="right">
         <div className="search">

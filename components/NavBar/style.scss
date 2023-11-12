@@ -33,36 +33,22 @@ nav {
     flex: 1;
 
     .logo {
-      color: $TextHead;
-      text-align: center;
-      font-family: $Roboto;
-      font-size: $LogoSize;
-      font-style: normal;
-      font-weight: 400;
-      line-height: normal;
-      font-variant: all-small-caps;
-      letter-spacing: 14.4px;
-      text-transform: uppercase;
-      cursor: pointer;
-      // border: solid 1px #282828;
+      h1 {
+        color: $TextHead;
+        text-align: center;
+        font-family: $Roboto;
+        font-size: $LogoSize;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        font-variant: all-small-caps;
+        letter-spacing: 14.4px;
+        text-transform: uppercase;
+        cursor: pointer;
+        user-select: none;
+        // border: solid 1px #282828;
 
-      position: relative;
-
-      &::after {
-        content: "";
-        position: absolute;
-        width: 0;
-        height: 3px;
-        bottom: 0;
-        left: 0;
-        background-color: $TextHead;
-        visibility: hidden;
-        transition: all 0.3s ease-in-out;
-      }
-
-      &:hover::after {
-        visibility: visible;
-        width: 95%;
+        position: relative;
       }
     }
   }
@@ -75,7 +61,7 @@ nav {
     flex: 1;
     // border: solid 1px #282828;
 
-    @media screen and (max-width: 720px) { 
+    @media screen and (max-width: 720px) {
       opacity: 0;
     }
 

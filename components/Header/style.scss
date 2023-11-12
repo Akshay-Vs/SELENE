@@ -9,11 +9,25 @@ main {
   border-radius: 0px 0px 80px 80px;
   padding: 0 20px;
 
-  @media screen and (max-width: 950px) { 
-    background-size:contain;
+  @media screen and (max-width: 950px) {
+    background-size: contain;
     background-position: top;
   }
+  .motto {
+    color: $TextSec;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    font-variant: all-small-caps;
+    letter-spacing: 2.64px;
 
+    position: absolute;
+    bottom: 2%;
+    right: 5%;
+  }
   .hero {
     position: absolute;
     display: flex;
@@ -34,7 +48,7 @@ main {
     font-variant: all-small-caps;
     letter-spacing: 11px;
     padding: 0 20px;
-    @media screen and (max-width: 950px) { 
+    @media screen and (max-width: 950px) {
       font-size: 90px;
       text-align: left;
     }

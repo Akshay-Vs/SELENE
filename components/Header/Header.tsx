@@ -17,6 +17,7 @@ const Header = () => {
           Lighting Solutions
         </h1>
       </div>
+      <div className="motto">Aethelpheia Lampadophora</div>
     </main>
   );
 };

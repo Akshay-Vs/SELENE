@@ -22,7 +22,7 @@
   letter-spacing: 2.2px;
   z-index: 9;
 
-  @media screen and (max-width: 1250px) { 
+  @media screen and (max-width: 1250px) {
     display: none;
   }
 
@@ -40,6 +40,8 @@
       width: 262px;
       height: 239px;
       flex-shrink: 0;
+      user-select: none;
+
       img {
         border-radius: 45px;
         object-fit: cover;

@@ -4,8 +4,8 @@ import "./style.scss";
 const PreviewCircle = () => {
   return (
     <div className="container">
-      <img src="https://m.media-amazon.com/images/I/71NLqRJBGXL._AC_UF1000,1000_QL80_.jpg" />
-      
+      <img src="https://images.pexels.com/photos/4846435/pexels-photo-4846435.jpeg" />
+
       <div className="btn">
         <svg
           xmlns="http://www.w3.org/2000/svg"
