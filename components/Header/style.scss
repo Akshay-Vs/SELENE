@@ -6,8 +6,13 @@ main {
   background-repeat: no-repeat;
   background-size: 80%;
   background-color: $HeadBG;
-
+  border-radius: 0px 0px 80px 80px;
   padding: 0 20px;
+
+  @media screen and (max-width: 950px) { 
+    background-size:contain;
+    background-position: top;
+  }
 
   .hero {
     position: absolute;
@@ -29,5 +34,9 @@ main {
     font-variant: all-small-caps;
     letter-spacing: 11px;
     padding: 0 20px;
+    @media screen and (max-width: 950px) { 
+      font-size: 90px;
+      text-align: left;
+    }
   }
 }

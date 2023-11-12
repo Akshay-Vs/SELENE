@@ -1,3 +1,5 @@
+@import "@styles/variables.scss";
+
 .container {
   width: 300px;
   height: 267px;
@@ -5,6 +7,10 @@
   position: absolute;
   top: 10%;
   left: 5%;
+
+  @media screen and (max-width: 950px) {
+    display: none;
+  }
 
   img {
     width: 267px;
