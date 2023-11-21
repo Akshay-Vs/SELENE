@@ -20,18 +20,21 @@
 }
 
 .popular-products {
-  margin-top: 80px;
+  margin-top: 40px;
+  padding: 0 60px;
+
   .heading {
     display: flex;
-    padding: 40px 80px;
     justify-content: space-between;
+    padding: 10px 0;
+
     h1 {
       color: #000;
       text-align: center;
       font-family: Roboto;
-      font-size: 96px;
+      font-size: 97px;
       font-style: normal;
-      font-weight: 300;
+      font-weight: 350;
       line-height: normal;
       font-variant: all-small-caps;
     }
@@ -41,12 +44,13 @@
       height: 139px;
       flex-shrink: 0;
       border-radius: 100px;
-      border: 2px solid var(--Text-Head, #282828);
+      border: 2px solid $TextHead;
       background: #fff;
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: 5px;
+      user-select: none;
 
       .wrapper {
         display: flex;
