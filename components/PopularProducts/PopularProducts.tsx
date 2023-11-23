@@ -8,7 +8,7 @@ const PopularProducts = () => {
   return (
     <div className="popular-products">
       <Heading />
-      <div className="flex justify-between">
+      <div className="flex justify-center">
         <ProductCard
           name="Selene Palm ch-2"
           price={299}
